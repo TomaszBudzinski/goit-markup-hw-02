@@ -1,0 +1,99 @@
+.body {
+  font-family: "Roboto", sans-serif;
+  color: #212121;
+}
+.link:focus,
+.link:hover {
+  color: #2196f3;
+  text-decoration: none;
+}
+.link {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+  color: #757575;
+  font-style: normal;
+}
+.address {
+  font-size: 14px;
+  font-style: normal;
+}
+.menu-nav:focus,
+.menu-nav:hover {
+  color: #2196f3;
+  text-decoration: none;
+}
+.menu-nav {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+  color: #212121;
+}
+.button-entry:hover,
+.button-entry:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+  border-color: #2196f3;
+}
+.button-task:hover,
+.button-task:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+  border-color: #2196f3;
+}
+.button-entry {
+  cursor: pointer;
+}
+.button-task {
+  cursor: pointer;
+}
+.title-color1 {
+  color: #2196f3;
+  font-weight: 700;
+}
+.title-color2 {
+  color: #000000;
+}
+.web-title {
+  text-decoration: none;
+  font-size: 26px;
+}
+.bg-entry {
+  background-color: #2f303a;
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+}
+.h4-main-page {
+  font-weight: 700;
+  font-size: 14px;
+}
+.main-page-note {
+  color: #757575;
+  font-size: 14px;
+  line-height: 1.7;
+}
+.h2-what-we-do {
+  font-weight: 700;
+  font-size: 36px;
+}
+.h2-team {
+  font-weight: 700;
+  font-size: 36px;
+}
+.h4-team-members {
+  font-weight: 500;
+  font-size: 16px;
+}
+.member-position {
+  font-size: 16px;
+  color: #757575;
+}
+.h4-task {
+  font-weight: 700;
+  font-size: 18px;
+}
+.p-task {
+  font-size: 16px;
+  color: #757575;
+}

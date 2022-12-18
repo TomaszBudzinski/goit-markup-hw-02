@@ -2,55 +2,77 @@
 <html lang="pl">
   <head>
     <title>Studio - main page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <header>
-      <a href="/index.html"><h2>WebStudio</h2></a>
+      <a href="./index.html"
+        ><h2 class="web-title">
+          <span class="title-color1">Web</span
+          ><span class="title-color2">Studio</span>
+        </h2></a
+      >
       <nav>
         <ul>
-          <li><a href="Agencja">Agencja</a></li>
-          <li><a href="/portfolio.html">Portfolio</a></li>
-          <li><a href="Kontakt">Kontakt</a></li>
+          <li><a class="menu-nav" href="Agencja">Agencja</a></li>
+          <li><a class="menu-nav" href="./portfolio.html">Portfolio</a></li>
+          <li><a class="menu-nav" href="Kontakt">Kontakt</a></li>
         </ul>
       </nav>
-      <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-      <a href="tel:+48111111111">+48 111 111 111</a>
+      <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+      <a class="link" href="tel:+48111111111">+48 111 111 111</a>
     </header>
     <main>
-      <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-      <button type="button">Zamów usługe</button>
+      <section class="bg-entry">
+        <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+        <button class="button-entry" type="button">Zamów usługe</button>
+      </section>
       <section>
         <ul>
           <li>
-            <h4>LOREM IPSUM</h4>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-            arcu sem. Sed non sodales dui. Interdum et malesuada
+            <h4 class="h4-main-page">LOREM IPSUM</h4>
+            <span class="main-page-note">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+              arcu sem. Sed non sodales dui. Interdum et malesuada
+            </span>
           </li>
         </ul>
         <ul>
           <li>
-            <h4>LOREM IPSUM</h4>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-            arcu sem. Sed non sodales dui. Interdum et malesuada
+            <h4 class="h4-main-page">LOREM IPSUM</h4>
+            <span class="main-page-note">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+              arcu sem. Sed non sodales dui. Interdum et malesuada
+            </span>
           </li>
         </ul>
         <ul>
           <li>
-            <h4>LOREM IPSUM</h4>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-            arcu sem. Sed non sodales dui. Interdum et malesuada
+            <h4 class="h4-main-page">LOREM IPSUM</h4>
+            <span class="main-page-note">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+              arcu sem. Sed non sodales dui. Interdum et malesuada
+            </span>
           </li>
         </ul>
         <ul>
           <li>
-            <h4>LOREM IPSUM</h4>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-            arcu sem. Sed non sodales dui. Interdum et malesuada
+            <h4 class="h4-main-page">LOREM IPSUM</h4>
+            <span class="main-page-note">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+              arcu sem. Sed non sodales dui. Interdum et malesuada
+            </span>
           </li>
         </ul>
       </section>
       <section>
-        <h2>Czym się zajmujemy</h2>
+        <h2 class="h2-what-we-do">Czym się zajmujemy</h2>
         <ul>
           <li>
             <img
@@ -79,7 +101,7 @@
         </ul>
       </section>
       <section>
-        <h2>Nasz zespół</h2>
+        <h2 class="h2-team">Nasz zespół</h2>
         <ul>
           <li>
             <figure>
@@ -90,8 +112,8 @@
                 height="260"
               />
               <figcaption>
-                <h4>John Doe</h4>
-                <p>Product Designer</p>
+                <h4 class="h4-team-members">John Doe</h4>
+                <p class="member-position">Product Designer</p>
               </figcaption>
             </figure>
           </li>
@@ -104,8 +126,8 @@
                 height="260"
               />
               <figcaption>
-                <h4>John Doe</h4>
-                <p>Frontend Developer</p>
+                <h4 class="h4-team-members">John Doe</h4>
+                <p class="member-position">Frontend Developer</p>
               </figcaption>
             </figure>
           </li>
@@ -118,8 +140,8 @@
                 height="260"
               />
               <figcaption>
-                <h4>John Doe</h4>
-                <p>Marketing</p>
+                <h4 class="h4-team-members">John Doe</h4>
+                <p class="member-position">Marketing</p>
               </figcaption>
             </figure>
           </li>
@@ -132,8 +154,8 @@
                 height="260"
               />
               <figcaption>
-                <h4>John Doe</h4>
-                <p>UI Designer</p>
+                <h4 class="h4-team-members">John Doe</h4>
+                <p class="member-position">UI Designer</p>
               </figcaption>
             </figure>
           </li>
@@ -141,11 +163,14 @@
       </section>
     </main>
     <footer>
-      <h2>WebStudio</h2>
-      <address>m. Warszawa, Aleje Jerozolimskie 21</address>
+      <h2 class="web-title">
+        <span class="title-color1">Web</span
+        ><span class="title-color2">Studio</span>
+      </h2>
+      <address class="address">m. Warszawa, Aleje Jerozolimskie 21</address>
       <address>
-        <a href="mailto:info@example.com">info@example.com</a>
-        <a href="tel:+48111111111">+48 111 111 111</a>
+        <a class="link" href="mailto:info@example.com">info@example.com</a>
+        <a class="link" href="tel:+48111111111">+48 111 111 111</a>
       </address>
     </footer>
   </body>
